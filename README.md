@@ -38,19 +38,19 @@ graph TD
     G --> H[🗃️ Storage & Retrieval System]
     H --> I[🔁 Retrieval API]
 🛠️ Getting Started Locally
-##Prerequisites
-#1.Python 3.10+
+## Prerequisites
+# 1.Python 3.10+
 
-#2.Docker
+# 2.Docker
 
-#3.Neo4j (local or cloud)
+# 3.Neo4j (local or cloud)
 
-#4.OpenAI API key
+# 4.OpenAI API key
 
-##1. Clone the repo
+## 1. Clone the repo
 git clone https://github.com/your-username/edugraph.git
 cd edugraph
-##2. Setup backend
+## 2. Setup backend
 cd backend
 pip install -r requirements.txt
 Create a .env file in /backend with:
@@ -61,12 +61,12 @@ NEO4J_PASSWORD=your_password
 S3_BUCKET=your_bucket_name
 Run backend:
 uvicorn main:app --reload
-##3. Setup Manim automation
+## 3. Setup Manim automation
 cd ../manim_engine
 pip install -r requirements.txt
 Render a sample animation:
 python render_bst.py
-##📂 Folder Structure
+## 📂 Folder Structure
 AI-KnowledgeGraph-Manim-Automation/
 ├── README.md
 ├── docs/
@@ -89,14 +89,14 @@ AI-KnowledgeGraph-Manim-Automation/
 │   ├── tradeoffs.md
 │   ├── tech_stack_choices.md
 │   └── prompt_templates.md
-##📌 Upcoming Features
-#🗣️ Voice-over narration using TTS
+## 📌 Upcoming Features
+# 🗣️ Voice-over narration using TTS
 
-#🌐 Multilingual support for global learners
+# 🌐 Multilingual support for global learners
 
-#📊 Dashboard for tracking generated content
+# 📊 Dashboard for tracking generated content
 
-#🧪 Sector-specific templates (GIS, Space Tech, DSA)
+# 🧪 Sector-specific templates (GIS, Space Tech, DSA)
 
 ##🤝 Contributing
 We welcome contributions! Please check out the ideas/ folder for open design discussions and submit pull requests with clear documentation.
