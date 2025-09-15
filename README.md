@@ -27,9 +27,6 @@ EduGraph is a modular AI system that transforms textbook concepts into animated 
 
 ## 🔄 Project Flow
 
-Certainly! Here’s the **description of the system architecture flow** in plain words based on the diagram you provided:
-
----
 
 ### System Architecture Flow Description
 
