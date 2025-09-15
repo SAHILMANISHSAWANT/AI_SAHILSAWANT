@@ -39,13 +39,13 @@ graph TD
     H --> I[🔁 Retrieval API]
 🛠️ Getting Started Locally
 # Prerequisites
-## 1.Python 3.10+
+**1.Python 3.10+
 
-## 2.Docker
+**2.Docker
 
-## 3.Neo4j (local or cloud)
+**3.Neo4j (local or cloud)
 
-## 4.OpenAI API key
+**4.OpenAI API key
 
 # 1. Clone the repo
 git clone https://github.com/your-username/edugraph.git
