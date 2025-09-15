@@ -27,7 +27,7 @@ EduGraph is a modular AI system that transforms textbook concepts into animated 
 
 ## 🔄 Project Flow
 
-```mermaid
+
 graph TD
     A[🧑‍🎓 User Query] --> B[NLP Entity Extraction]
     B --> C[📚 Knowledge Graph Retrieval]
