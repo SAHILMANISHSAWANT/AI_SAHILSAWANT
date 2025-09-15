@@ -67,28 +67,28 @@ pip install -r requirements.txt
 Render a sample animation:
 python render_bst.py
 # 📂 Folder Structure
-AI-KnowledgeGraph-Manim-Automation/
-├── README.md
-├── docs/
-│   ├── architecture.md
-│   ├── flow_diagram.png
-│   ├── component_explanation.md
-│   └── sector_extensions.md
-├── pseudo_code/
-│   ├── concept_retrieval.py
-│   ├── ai_slide_generator.py
-│   ├── formatter.py
-│   ├── manim_automation.py
-│   └── backend_orchestration.py
-├── assets/
-│   ├── diagrams/
-│   │   └── system_architecture.png
-│   └── examples/
-│       └── binary_search_tree_flow.md
-├── ideas/
-│   ├── tradeoffs.md
-│   ├── tech_stack_choices.md
-│   └── prompt_templates.md
+| Folder/File                          | Description                                      |
+|-------------------------------------|--------------------------------------------------|
+| `README.md`                         | Project overview and setup instructions          |
+| `docs/`                             | System documentation and architecture            |
+| ├── `architecture.md`              | High-level system design and flow                |
+| ├── `flow_diagram.png`             | Visual diagram of the pipeline                   |
+| ├── `component_explanation.md`     | Detailed breakdown of each module                |
+| └── `sector_extensions.md`         | Customization for GIS, Space Tech, DSA, etc.     |
+| `pseudo_code/`                      | Pseudo-code for core modules                     |
+| ├── `concept_retrieval.py`         | Retrieves concept from knowledge graph           |
+| ├── `ai_slide_generator.py`        | Generates slides and scripts using AI            |
+| ├── `formatter.py`                 | Formats content for Manim                        |
+| ├── `manim_automation.py`          | Automates Manim rendering                        |
+| └── `backend_orchestration.py`     | Coordinates the full pipeline                    |
+| `assets/`                           | Visuals and examples                             |
+| ├── `diagrams/system_architecture.png` | PNG version of architecture diagram          |
+| └── `examples/binary_search_tree_flow.md` | Sample concept-to-video flow               |
+| `ideas/`                            | Design decisions and prompt strategies           |
+| ├── `tradeoffs.md`                 | Key trade-offs in system design                  |
+| ├── `tech_stack_choices.md`        | Justification for chosen technologies            |
+| └── `prompt_templates.md`          | Reusable prompts for different domains           |
+
 # 📌 Upcoming Features
 ## 🗣️ Voice-over narration using TTS
 
