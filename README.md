@@ -27,45 +27,39 @@ EduGraph is a modular AI system that transforms textbook concepts into animated 
 
 ## 🔄 Project Flow
 
+Certainly! Here’s the **description of the system architecture flow** in plain words based on the diagram you provided:
 
-+-----------------------+
-|       User Interface  | <--- User inputs query and views video
-+-----------+-----------+
-            |
-            v
-+-----------+-----------+
-| Backend Orchestrator  | <--- Controls flow and coordinates modules
-+-----------+-----------+
-            |
-            v
-+-----------------------+         +----------------------+
-|   Knowledge Graph DB   | <-----> | Knowledge Graph API   | <--- Semantic search and concept retrieval
-+-----------------------+         +----------------------+
-            |
-            v
-+-----------------------+
-|    AI Content Module   | <--- Uses LLM to generate slide content & narration
-+-----------------------+
-            |
-            v
-+-----------------------+
-| Slide & Script Formatter| <--- Structures AI output into slides and narration
-+-----------------------+
-            |
-            v
-+-----------------------+
-|   Manim Animation      | <--- Converts slides/scripts into video animations
-+-----------------------+
-            |
-            v
-+-----------------------+
-|   Storage & CDN        | <--- Stores generated videos, scripts, metadata
-+-----------------------+
-            |
-            v
-+-----------+-----------+
-|    User Interface     | <--- Streams video to user
-+-----------------------+
+---
+
+### System Architecture Flow Description
+
+1. **User Interface**
+   The user interacts with the system by inputting a concept query and later views the generated educational video.
+
+2. **Backend Orchestrator**
+   This component controls the entire process, managing the flow of data and coordinating between different modules.
+
+3. **Knowledge Graph Database and API**
+   The backend queries the knowledge graph database through an API that performs semantic search and retrieves relevant concepts and related information.
+
+4. **AI Content Module**
+   Using the retrieved data from the knowledge graph, this module employs a large language model (LLM) to generate detailed slide content and narration scripts explaining the concept.
+
+5. **Slide & Script Formatter**
+   This component structures and organizes the AI-generated content into well-formatted slides along with synchronized narration scripts, ready for presentation.
+
+6. **Manim Animation Engine**
+   The formatted slides and scripts are passed to the Manim animation engine, which programmatically creates animated educational videos illustrating the concepts.
+
+7. **Storage & Content Delivery Network (CDN)**
+   The generated videos, scripts, and related metadata are stored securely and cached for faster retrieval. The CDN ensures smooth and efficient streaming of the videos to users.
+
+8. **User Interface (Output)**
+   Finally, the system streams the animated educational video back to the user interface, where the user can watch and learn from the generated content.
+
+---
+
+If you want, I can help rephrase it or write it for a specific section like documentation or a presentation!
 
 # Prerequisites
 **1.Python 3.10+**
