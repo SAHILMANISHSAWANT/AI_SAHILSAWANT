@@ -28,16 +28,45 @@ EduGraph is a modular AI system that transforms textbook concepts into animated 
 ## 🔄 Project Flow
 
 
-graph TD
-    A[🧑‍🎓 User Query] --> B[NLP Entity Extraction]
-    B --> C[📚 Knowledge Graph Retrieval]
-    C --> D[🤖 AI Slide & Script Generator]
-    D --> E[🧾 Slide & Script Formatter]
-    E --> F[🎞️ Manim Animation Engine]
-    F --> G[📦 Video Output]
-    G --> H[🗃️ Storage & Retrieval System]
-    H --> I[🔁 Retrieval API]
-🛠️ Getting Started Locally
++-----------------------+
+|       User Interface  | <--- User inputs query and views video
++-----------+-----------+
+            |
+            v
++-----------+-----------+
+| Backend Orchestrator  | <--- Controls flow and coordinates modules
++-----------+-----------+
+            |
+            v
++-----------------------+         +----------------------+
+|   Knowledge Graph DB   | <-----> | Knowledge Graph API   | <--- Semantic search and concept retrieval
++-----------------------+         +----------------------+
+            |
+            v
++-----------------------+
+|    AI Content Module   | <--- Uses LLM to generate slide content & narration
++-----------------------+
+            |
+            v
++-----------------------+
+| Slide & Script Formatter| <--- Structures AI output into slides and narration
++-----------------------+
+            |
+            v
++-----------------------+
+|   Manim Animation      | <--- Converts slides/scripts into video animations
++-----------------------+
+            |
+            v
++-----------------------+
+|   Storage & CDN        | <--- Stores generated videos, scripts, metadata
++-----------------------+
+            |
+            v
++-----------+-----------+
+|    User Interface     | <--- Streams video to user
++-----------------------+
+
 # Prerequisites
 **1.Python 3.10+**
 
