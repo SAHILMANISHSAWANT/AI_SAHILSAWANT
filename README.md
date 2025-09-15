@@ -98,5 +98,5 @@ AI-KnowledgeGraph-Manim-Automation/
 
 ## 🧪 Sector-specific templates (GIS, Space Tech, DSA)
 
-#🤝 Contributing
+# 🤝 Contributing
 We welcome contributions! Please check out the ideas/ folder for open design discussions and submit pull requests with clear documentation.
