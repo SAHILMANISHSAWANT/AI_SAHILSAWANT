@@ -90,13 +90,13 @@ python render_bst.py
 | └── `prompt_templates.md`          | Reusable prompts for different domains           |
 
 # 📌 Upcoming Features
-## 🗣️ Voice-over narration using TTS
+### 🗣️ Voice-over narration using TTS
 
-## 🌐 Multilingual support for global learners
+### 🌐 Multilingual support for global learners
 
-## 📊 Dashboard for tracking generated content
+### 📊 Dashboard for tracking generated content
 
-## 🧪 Sector-specific templates (GIS, Space Tech, DSA)
+### 🧪 Sector-specific templates (GIS, Space Tech, DSA)
 
 # 🤝 Contributing
 We welcome contributions! Please check out the ideas/ folder for open design discussions and submit pull requests with clear documentation.
